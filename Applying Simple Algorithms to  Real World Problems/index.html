@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <form id="inventory-form">
+        <label for="item-input">Enter Item:</label>
+        <input type="text" id="item-input" name="item-input">
+        <button type="button" onclick="find()">Search</button>
+        <p id="output"></p>
+    </form>
+    <form id="product-form">
+        <label for="product-input">Select a Product:</label>
+        <select id="product-input" name="product-input">
+            <option value="Shoes">Shoes</option>
+            <option value="T-Shirts">T-Shirts</option>
+            <option value="Coats">Coats</option>
+        </select>
+        <button type="button" onclick="recommendProducts()">Get Recommendations:</button>
+        <p id="recommendations"></p>
+    </form>
+    <h2>Furniture Search</h2>
+    <form>
+        <label for="search-furniture">Enter Furniture Item:</label>
+        <input type="text" id="search-furniture" name="search-furniture">
+        <button type="button" onclick="searchFurniture()">Search:</button>
+    </form>
+    <p id="search-result"></p>
+</body>
+</html>
