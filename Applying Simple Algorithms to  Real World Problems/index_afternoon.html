@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0" />
+    <title>Document</title>
+    <script src="main_afternoon.js" defer></script>
+  </head>
+  <body>
+    <h2>Filter the Students!</h2>
+    <form id="student-form">
+      <label for="student-input">Select a Category:</label>
+      <select id="student-input" name="student-input">
+        <option value="engineering">engineering</option>
+        <option value="medicine">medicine</option>
+        <option value="psychology">psychology</option>
+      </select>
+      <button type="button" onclick="filterStudents()">Filter Students</button>
+      <p id="display-students"></p>
+    </form>
+
+    <h2>Product Search Performance Analysis!</h2>
+
+    <label for="search-product"></label>
+    <input type="text" id="search-product" placeholder="search a product">
+
+    <button id="search-button">Search Product</button><br><br>
+
+    <p id="result-search"></p>
+
+    <button id="analyse-button" onclick="analyzeProductSearch()">Run Product Search Analysis</button>
+
+    <p id="result"></p>
+  </body>
+</html>
